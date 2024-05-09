@@ -1,6 +1,7 @@
 import streamlit as st
 import PyPDF2
 import pdfplumber
+import spacy
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
